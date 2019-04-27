@@ -28,8 +28,8 @@ CuboidMaker.prototype.volume = function() {
   Formula for cuboid surface area of a cube: 2 * (length * width + length * height + width * height)
 */
 CuboidMaker.prototype.surfaceArea = function() {
-  return `2 * ${this.length} * ${this.width} + ${this.length} * ${this.height} + ${this.width} * ${this.height}`; //prints 2 * 4 * 5 + 4 * 5 + 5 * 5
-}///////// CORRECT THIS WHEN YOU GET A CHANCE!////////////////////
+  return `2 * ${this.length} * ${this.width} + ${this.length} * ${this.height} + ${this.width} * ${this.height}`; //prints 2 * 4 * 5 + 4 * 5 + 5 * 5 in VS Code
+}// codepen shows this math formula's answer as 130. I'm thinking it's correct.
 
 /* == Step 4: Create a new object that uses CuboidMaker ==
   Create a cuboid object that uses the new keyword to use our CuboidMaker constructor

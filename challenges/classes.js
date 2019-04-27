@@ -10,8 +10,8 @@ volume() {
     return `${this.length * this.width * this.height}`;
   }
 surfaceArea() {
-    return `2 * ${this.length} * ${this.width} + ${this.length} * ${this.height} + ${this.width} * ${this.height}`; //prints 2 * 4 * 5 + 4 * 5 + 5 * 5
-  } //////  CORRECT THIS FORMULA!!! ///
+    return `2 * ${this.length} * ${this.width} + ${this.length} * ${this.height} + ${this.width} * ${this.height}`; //prints 2 * 4 * 5 + 4 * 5 + 5 * 5 in VS Code
+  } // codepen shows this math formula's answer as 130. I'm thinking it's correct.
 };
 
 const cuboid = new CuboidMaker({
