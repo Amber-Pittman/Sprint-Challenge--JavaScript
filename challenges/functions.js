@@ -30,7 +30,8 @@ console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
 // Explanation: 
-
+/*The nestedfunction() is inside the block of myFunction() so it receives access to myFunction()'s
+ variables.*/
 
 const external = "I'm outside the function";
 
