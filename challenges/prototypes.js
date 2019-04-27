@@ -29,7 +29,7 @@ CuboidMaker.prototype.volume = function() {
 */
 CuboidMaker.prototype.surfaceArea = function() {
   return `2 * ${this.length} * ${this.width} + ${this.length} * ${this.height} + ${this.width} * ${this.height}`; //prints 2 * 4 * 5 + 4 * 5 + 5 * 5
-}///////////// CORRECT THIS WHEN YOU GET A CHANCE!////////////////////
+}///////// CORRECT THIS WHEN YOU GET A CHANCE!////////////////////
 
 /* == Step 4: Create a new object that uses CuboidMaker ==
   Create a cuboid object that uses the new keyword to use our CuboidMaker constructor
