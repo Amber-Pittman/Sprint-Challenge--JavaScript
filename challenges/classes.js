@@ -1,10 +1,11 @@
 // 1. Copy and paste your prototype in here and refactor into class syntax.
 
-function CuboidMaker(attrs) {
-  this.length = attrs.length;
-  this.width = attrs.width;
-  this.height = attrs.height;
-}
+class CuboidMaker {
+    constructor(attrs) {
+    this.length = attrs.length;
+    this.width = attrs.width;
+    this.height = attrs.height;
+}}
 
 CuboidMaker.prototype.volume = function() {
   return `${this.length * this.width * this.height}`;
