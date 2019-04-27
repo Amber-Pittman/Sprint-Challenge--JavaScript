@@ -31,7 +31,7 @@ console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to
 
 // Explanation: 
 /*The nestedfunction() is inside the block of myFunction() so it receives access to myFunction()'s
- variables.*/
+ variables, like inheritance.*/
 
 const external = "I'm outside the function";
 
